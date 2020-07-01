@@ -1,0 +1,96 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+#homePage{
+    margin-left: 35%;
+    font-size: 200%;
+}
+
+#drumsPage{
+    width: 70%;
+}
+
+.drums{
+    width: 130%;
+    height: 60%;
+    display: inline-flex;
+    margin-left: 6%;    
+}
+
+.w{
+    background-image: url(images/bass.jpg);
+    width: 290%;
+    height: 90%;
+    background-position: center;
+    margin-right: 5%;
+    font-size: 5rem;
+    color: red;
+    font-weight: bold;
+
+    
+}
+
+.a{
+    background-image: url(images/snare.jpg);
+    width: 290%;
+    height: 90%;
+    background-position: center;
+    margin-right: 5%;
+    font-size: 5rem;
+    color: red;
+    font-weight: bold;
+
+}
+
+.d{
+    background-image: url(images/toms.jpg);
+    width: 290%;
+    height: 90%;
+    background-position: center;
+    margin-right: 5%;
+    font-size: 5rem;
+    color: red;
+    font-weight: bold;
+
+}
+
+.j{
+    background-image: url(images/cymbal.jpg);
+    width: 290%;
+    height: 90%;
+    background-position: center;
+    margin-right: 5%;
+    font-size: 5rem;
+    color: red;
+} 
+
+.l{
+    background-image: url(images/splashcymbal.jpg);
+    width: 290%;
+    height: 90%;
+    background-position: center;
+    font-size: 5rem;
+    color: red;
+    font-weight: bold;
+
+}
+
+.index{
+    margin-left: 20%;
+     width: 120%; 
+}
+
+span{
+    margin-right: 9%;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bold;
+}
