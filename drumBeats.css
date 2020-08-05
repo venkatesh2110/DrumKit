@@ -1,4 +1,7 @@
 body{
+    background-image: url('./images/drumsbg.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: lightblue;
 }
 
@@ -7,11 +10,31 @@ h1{
     margin-top: 5%;
     margin-bottom: 5%;
     text-decoration: underline;
+    color: chocolate;
 }
 
 #homePage{
+    color: red;
     margin-left: 35%;
     font-size: 200%;
+}
+.excited{
+    margin-left: 2%;
+}
+
+
+#clickBtn{
+    margin-left: 17%;
+    background-color: saddlebrown;
+    border-radius: 5%;
+    border: none;
+    color: snow;
+    font-size: 25px;  
+    cursor: pointer;  
+}
+
+.clickBelow{
+    margin-left: 11%;
 }
 
 #drumsPage{
@@ -22,6 +45,7 @@ h1{
     width: 130%;
     height: 60%;
     display: inline-flex;
+    flex-wrap:nowrap;
     margin-left: 6%;    
 }
 

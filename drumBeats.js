@@ -1,21 +1,21 @@
 function toggleFunction() {
    document.getElementById('drumsPage').style.display = 'block';
-   document.getElementById('homePage').style.display = 'none';
+   document.getElementById('homePage').style.display='none';
 }
 
 let selectDrumClassLength = document.getElementsByClassName('selectDrum').length;
 for (let i = 0; i < selectDrumClassLength; i++) {
    document.getElementsByClassName("selectDrum")[i].addEventListener("click", function(){
       var innerHTMLvalue = this.innerHTML;
-      alertFunction(innerHTMLvalue);
+      drumKit(innerHTMLvalue);
    });
 
    document.getElementsByClassName("selectDrum")[i].addEventListener("keypress",function(event){
       var innerTextvalue = event.key;
-      alertFunction(innerTextvalue);
+      drumKit(innerTextvalue);
    })
 }
-function alertFunction(text) {
+function drumKit(text) {
    
    switch (text) {
       case 'w':
